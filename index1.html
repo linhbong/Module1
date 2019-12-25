@@ -1,0 +1,63 @@
+﻿<html>
+<head>
+       <meta charset="utf-8">
+       <title>My first web page</title>
+</head>
+<body>
+
+<h1>THÊM SINH VIÊN</h1>
+<form name="student_from" method="GET"
+action="new_student.php">
+<table border="1">
+<tr>
+<td width=40%">Họ tên:</td>
+<td><input type="text" name="fullname" value="">/td>
+</tr>
+
+<tr>
+<td>Ngày sinh:</td>
+<td> <input type="date" name="DOB" value="01/01/2019"></td>
+<tr>
+
+<tr>
+<td align="center">Giới tính:</td>
+<td> <input type="radio" name="sex" value="1"> Nam <input type="radio" name="sex" value="0"> Nữ</td>
+<tr>
+
+<table>
+Họ tên:  <input type="text" name="fullname" value=""> <br>
+Ngày sinh: <input tyep="date" name="DOB" value=""> <br>
+Giới tính: <input type="radio" name="sex" value="0"> Nữ <br>
+
+Quê quán: <select name="home_town">
+          <option value="HN">Hà Nội</option>
+          <option value="HP">Hải Phòng</option>
+          <option value="ND">Nam Định</option>
+          <option value="QN">Quảng Ninh</option>
+</select><br>
+
+Sở thích:
+<input type="checkbox" value="1" name="hobbies[]"> Thể thao
+<input type="checkbox" value="2" name="hobbies[]"> Du lịch
+<input type="checkbox" value="3" name="hobbies[]"> Phim ảnh
+<br>
+
+Ảnh: <input type="file" name="avata"><br>
+
+Username: <input type="text" name="username" value=""> <br>
+Password; <input type="password" name="password" value=""><br>
+
+ID: <input type="'hidden" value="1234"' name="ID"><br>
+Mô tả: <texttarea name="description"></textarea><br>
+<input type="reset" value="Nhập lại">
+</form>
+
+
+Tôi tên là Cao Ngọc linh
+Tôi tên là Cao Ngọc Linh
+
+
+
+
+</body>
+</html>
